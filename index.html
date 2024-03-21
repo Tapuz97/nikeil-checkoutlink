@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>NIKE quick link</title>
+  <link rel="icon" href="favi.ico">
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-toast-plugin/1.3.2/jquery.toast.min.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/jquery-toast-plugin/1.3.2/jquery.toast.min.css" rel="stylesheet">
+  <script src="./script.js"></script>
+</head>
+<body>
+  <div class="main">    
+    <div class="Testing">
+      <form>
+        <label for="chk" aria-hidden="true">NIKE Checkout Link</label>
+		<p>product link</p><input type="text" id="productlink" name="product link" placeholder="https://www.nike.com/il/launch/t/air-jordan-1-low-og-x-trophy-room-sail-and-varsity-red" required="">
+    <p>SKU</p><input type="text" id="sku" name="sku" placeholder="Enter SKU" required="">
+		<p>select size</p>
+    <table>
+        <tr>
+          <td>
+            <select name="size" id="size">
+              <option value="5">37.5</option>
+              <option value="5.5">38</option>
+              <option value="6">38.5</option>
+              <option value="6.5">39</option>
+              <option value="7">40</option>
+              <option value="7.5">40.5</option>
+              <option value="8">41</option>
+              <option value="8.5">42</option>
+              <option value="9">42.5</option>
+              <option value="9.5">43</option>
+              <option value="10">44</option>
+              <option value="10.5">44.5</option>
+              <option value="11">45</option>
+              <option value="11.5">45.5</option>
+              <option value="12">46</option>
+              <option value="12.5">47</option>
+              <option value="13">47.5</option>
+            </select>
+        </td>
+      </tr>
+    </table>
+        <button id="genlink" type="button">Generate Checkout Link</button>
+        <button id="co_btn" type="button">Generating...</button>
+      </form>
+    </div>
+  </div>  
+</body>
+</html>
